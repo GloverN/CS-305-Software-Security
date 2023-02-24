@@ -1,2 +1,11 @@
 # CS-305-Software-Security
 Repository for my SNHU CS-305: Software Security project
+
+# Portfolio Reflection
+Artemis Financial is a consulting company that develops individualized financial plans for their clients that include savings, retirement, investments, and insurance. They want to mondernize their operations and need to make sure that their custom software is as secure as possible.
+When it came to addressing the security vulnerabilities, I think I gave a great amount of detail about the cause of the vulnerability and how best to fix it. In regards to Artemis Financial, software security is of the utmost importance. Since they are a financial company, there are government regulations they're expected to uphold as well as their customers' trust that their data is secure.
+The vulnerability assessment was very helpful, because I was able to tell where Artemis Financial needed to focus to fix those holes in their security. In their case, they really needed to update the versions of the dependencies they were using. That would have fixed almost every one of the vulnerabilities I uncovered.
+The way I added layers to their software security was by making sure they were using the HTTPS protocol as opposed to HTTP. In the future I plan to rely on both static and dynamic testing to find vulnerabilities. I'd also use code review to make sure they were using secure software coding practices.
+The way I made sure the code was functional and secure for this assignment was by running an OWASP Maven Dependency Check on the code multiple times and running the code to make sure it compiled with no errors. The dependency check was run multiple times throughout my refactoring of the code base to make sure the number of vulnerabilities remained the same. That would mean that I hadn't added any new ones.
+I think the OWASP Maven Dependency Check will be a very useful tool in the future because it does a very thorough job at finding security vulnerabilities. It so far has only needed a small amount of false positive suppression which is a benefit as well.
+I would definitely show future employers the work I did on both Project One and Project Two, primarily to show them the process of my work. I would also show them how thorough I was when finding and addressing the numerous security vulnerabilities.
